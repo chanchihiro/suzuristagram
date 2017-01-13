@@ -1,0 +1,18 @@
+//ファイルのインポート
+@import "lib/base";
+@import "lib/layout";
+@import "lib/mixins";
+
+
+body {
+	font-family: mc-l;
+}
+
+#root {
+	width: 300px;
+	margin: 0 auto;
+}
+
+li {
+	list-style-type: none;
+}
