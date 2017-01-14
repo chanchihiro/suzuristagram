@@ -2,4 +2,4 @@
 SuzuriをInstagram風にアレンジします
 
 # 環境
-React + Redux + jQuery + Jade + Sass + gulp + browselify
+React + Redux + jQuery + Jade + Sass + OOCSS + gulp + browselify
