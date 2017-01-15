@@ -1,6 +1,7 @@
 var gulp = require("gulp");
 var babel = require("gulp-babel");
 var sass = require("gulp-sass"); //sassのコンパイル
+var compass = require('gulp-compass'); //compassのコンパイル
 var autoprefixer = require("gulp-autoprefixer"); //弁ダープレフィックスつける
 var frontnote = require("gulp-frontnote"); //スタイルガイドの作成
 var uglify = require("gulp-uglify"); //jsの圧縮

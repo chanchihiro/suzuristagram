@@ -1,6 +1,9 @@
 //ブレイクポイントの設定
 $breakpoint-tablet: 980px;
 $breakpoint-mobile: 640px;
+$breakpoint-sp: (max-width: $break-point);
+$breakpoint-tb: (min-width: $break-point-min) and (max-width: $break-point-max);
+$breakpoint-pc: (min-width: $break-point);
 
 @mixin max-screen($break-point) {
   @media screen and (max-width: $break-point) {
@@ -16,6 +19,12 @@ $breakpoint-mobile: 640px;
 
 @mixin screen($break-point-min, $break-point-max) {
   @media screen and (min-width: $break-point-min) and (max-width: $break-point-max) {
+    @content;
+  }
+}
+
+@mixin at-breakpoint() {
+   @media screen and (min-width: $break-point-min) and (max-width: $break-point-max) {
     @content;
   }
 }
